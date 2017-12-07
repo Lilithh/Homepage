@@ -58,17 +58,17 @@
 		0928AF291FD6ADA900965821 /* homepageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepageUITests.swift; sourceTree = "<group>"; };
 		0928AF2B1FD6ADA900965821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0928AF3C1FD826E500965821 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0928AF3E1FD82A5100965821 /* purchase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = purchase.png; path = picture/purchase.png; sourceTree = "<group>"; };
-		0928AF3F1FD82A5100965821 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key.png; path = picture/key.png; sourceTree = "<group>"; };
-		0928AF401FD82A5100965821 /* pack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pack.png; path = picture/pack.png; sourceTree = "<group>"; };
+		0928AF3E1FD82A5100965821 /* purchase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purchase.png; sourceTree = "<group>"; };
+		0928AF3F1FD82A5100965821 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
+		0928AF401FD82A5100965821 /* pack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pack.png; sourceTree = "<group>"; };
 		0928AF471FD9080800965821 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 		0928AF4A1FD90A9C00965821 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		09F484831FD923C600C93128 /* DefCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefCell.swift; sourceTree = "<group>"; };
-		09F484851FD927BE00C93128 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = picture/arrow.png; sourceTree = "<group>"; };
-		09F484871FD927CA00C93128 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = picture/star.png; sourceTree = "<group>"; };
-		09F484891FD927D600C93128 /* antenna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = antenna.png; path = picture/antenna.png; sourceTree = "<group>"; };
-		09F4848B1FD927DF00C93128 /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = file.png; path = picture/file.png; sourceTree = "<group>"; };
-		09F4848D1FD927E700C93128 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gear.png; path = picture/gear.png; sourceTree = "<group>"; };
+		09F484851FD927BE00C93128 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		09F484871FD927CA00C93128 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		09F484891FD927D600C93128 /* antenna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = antenna.png; sourceTree = "<group>"; };
+		09F4848B1FD927DF00C93128 /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
+		09F4848D1FD927E700C93128 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,23 +119,16 @@
 		0928AF081FD6ADA800965821 /* homepage */ = {
 			isa = PBXGroup;
 			children = (
-				0928AF091FD6ADA800965821 /* AppDelegate.swift */,
-				0928AF3C1FD826E500965821 /* ViewController.swift */,
-				0928AF4A1FD90A9C00965821 /* model.swift */,
-				0928AF0D1FD6ADA900965821 /* Main.storyboard */,
-				0928AF471FD9080800965821 /* extension.swift */,
-				09F484831FD923C600C93128 /* DefCell.swift */,
+				09F484981FD996AB00C93128 /* Model */,
+				09F484991FD996B600C93128 /* View */,
+				09F4849A1FD996C800C93128 /* Controller */,
+				09F4849C1FD996DE00C93128 /* Extension */,
+				09F4849B1FD996D000C93128 /* Support */,
+				09F484971FD9967700C93128 /* icon */,
 				0928AF101FD6ADA900965821 /* Assets.xcassets */,
-				0928AF121FD6ADA900965821 /* LaunchScreen.storyboard */,
 				0928AF151FD6ADA900965821 /* Info.plist */,
-				0928AF3F1FD82A5100965821 /* key.png */,
-				0928AF401FD82A5100965821 /* pack.png */,
-				0928AF3E1FD82A5100965821 /* purchase.png */,
-				09F484851FD927BE00C93128 /* arrow.png */,
-				09F484871FD927CA00C93128 /* star.png */,
-				09F484891FD927D600C93128 /* antenna.png */,
-				09F4848B1FD927DF00C93128 /* file.png */,
-				09F4848D1FD927E700C93128 /* gear.png */,
+				0928AF0D1FD6ADA900965821 /* Main.storyboard */,
+				0928AF121FD6ADA900965821 /* LaunchScreen.storyboard */,
 			);
 			path = homepage;
 			sourceTree = "<group>";
@@ -156,6 +149,61 @@
 				0928AF2B1FD6ADA900965821 /* Info.plist */,
 			);
 			path = homepageUITests;
+			sourceTree = "<group>";
+		};
+		09F484971FD9967700C93128 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				0928AF3F1FD82A5100965821 /* key.png */,
+				09F484891FD927D600C93128 /* antenna.png */,
+				09F4848B1FD927DF00C93128 /* file.png */,
+				09F4848D1FD927E700C93128 /* gear.png */,
+				0928AF401FD82A5100965821 /* pack.png */,
+				0928AF3E1FD82A5100965821 /* purchase.png */,
+				09F484851FD927BE00C93128 /* arrow.png */,
+				09F484871FD927CA00C93128 /* star.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		09F484981FD996AB00C93128 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0928AF4A1FD90A9C00965821 /* model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09F484991FD996B600C93128 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09F484831FD923C600C93128 /* DefCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09F4849A1FD996C800C93128 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0928AF3C1FD826E500965821 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		09F4849B1FD996D000C93128 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0928AF091FD6ADA800965821 /* AppDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		09F4849C1FD996DE00C93128 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0928AF471FD9080800965821 /* extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
