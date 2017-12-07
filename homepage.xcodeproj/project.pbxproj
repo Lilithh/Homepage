@@ -19,6 +19,12 @@
 		0928AF431FD82A5100965821 /* pack.png in Resources */ = {isa = PBXBuildFile; fileRef = 0928AF401FD82A5100965821 /* pack.png */; };
 		0928AF481FD9080800965821 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0928AF471FD9080800965821 /* extension.swift */; };
 		0928AF4B1FD90A9C00965821 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0928AF4A1FD90A9C00965821 /* model.swift */; };
+		09F484841FD923C600C93128 /* DefCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F484831FD923C600C93128 /* DefCell.swift */; };
+		09F484861FD927BE00C93128 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F484851FD927BE00C93128 /* arrow.png */; };
+		09F484881FD927CA00C93128 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F484871FD927CA00C93128 /* star.png */; };
+		09F4848A1FD927D600C93128 /* antenna.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F484891FD927D600C93128 /* antenna.png */; };
+		09F4848C1FD927DF00C93128 /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F4848B1FD927DF00C93128 /* file.png */; };
+		09F4848E1FD927E800C93128 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F4848D1FD927E700C93128 /* gear.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +63,12 @@
 		0928AF401FD82A5100965821 /* pack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pack.png; path = picture/pack.png; sourceTree = "<group>"; };
 		0928AF471FD9080800965821 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 		0928AF4A1FD90A9C00965821 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		09F484831FD923C600C93128 /* DefCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefCell.swift; sourceTree = "<group>"; };
+		09F484851FD927BE00C93128 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = picture/arrow.png; sourceTree = "<group>"; };
+		09F484871FD927CA00C93128 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = picture/star.png; sourceTree = "<group>"; };
+		09F484891FD927D600C93128 /* antenna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = antenna.png; path = picture/antenna.png; sourceTree = "<group>"; };
+		09F4848B1FD927DF00C93128 /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = file.png; path = picture/file.png; sourceTree = "<group>"; };
+		09F4848D1FD927E700C93128 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gear.png; path = picture/gear.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +124,18 @@
 				0928AF4A1FD90A9C00965821 /* model.swift */,
 				0928AF0D1FD6ADA900965821 /* Main.storyboard */,
 				0928AF471FD9080800965821 /* extension.swift */,
+				09F484831FD923C600C93128 /* DefCell.swift */,
 				0928AF101FD6ADA900965821 /* Assets.xcassets */,
 				0928AF121FD6ADA900965821 /* LaunchScreen.storyboard */,
 				0928AF151FD6ADA900965821 /* Info.plist */,
 				0928AF3F1FD82A5100965821 /* key.png */,
 				0928AF401FD82A5100965821 /* pack.png */,
 				0928AF3E1FD82A5100965821 /* purchase.png */,
+				09F484851FD927BE00C93128 /* arrow.png */,
+				09F484871FD927CA00C93128 /* star.png */,
+				09F484891FD927D600C93128 /* antenna.png */,
+				09F4848B1FD927DF00C93128 /* file.png */,
+				09F4848D1FD927E700C93128 /* gear.png */,
 			);
 			path = homepage;
 			sourceTree = "<group>";
@@ -248,10 +266,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0928AF421FD82A5100965821 /* key.png in Resources */,
+				09F4848C1FD927DF00C93128 /* file.png in Resources */,
 				0928AF141FD6ADA900965821 /* LaunchScreen.storyboard in Resources */,
 				0928AF431FD82A5100965821 /* pack.png in Resources */,
+				09F4848E1FD927E800C93128 /* gear.png in Resources */,
+				09F4848A1FD927D600C93128 /* antenna.png in Resources */,
 				0928AF111FD6ADA900965821 /* Assets.xcassets in Resources */,
 				0928AF411FD82A5100965821 /* purchase.png in Resources */,
+				09F484881FD927CA00C93128 /* star.png in Resources */,
+				09F484861FD927BE00C93128 /* arrow.png in Resources */,
 				0928AF0F1FD6ADA900965821 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0928AF481FD9080800965821 /* extension.swift in Sources */,
+				09F484841FD923C600C93128 /* DefCell.swift in Sources */,
 				0928AF3D1FD826E500965821 /* ViewController.swift in Sources */,
 				0928AF0A1FD6ADA800965821 /* AppDelegate.swift in Sources */,
 				0928AF4B1FD90A9C00965821 /* model.swift in Sources */,

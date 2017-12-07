@@ -27,11 +27,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let title = ["我的收藏", "我的发布", "编辑资料", "通用设置"]
-        let pic = ["star", "arrow", "file", "gear"]
+        let pic = ["star", "antenna", "file", "gear"]
         
         tableView = UITableView(frame: UIScreen.main.bounds, style: .grouped)
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.register(DefCell.self, forCellReuseIdentifier: "allType")
         let headerView = UIView(frame: CGRect(x:0, y:0, width: self.width, height: self.imageHeight ))
 //        headerView.backgroundColor = UIColor.clear
         tableView.tableHeaderView = headerView

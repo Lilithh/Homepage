@@ -25,17 +25,15 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         if indexPath.section == 0 {
             cellshow = self.cellContain[indexPath.row]
         } else {
-            cellshow = self.cellContain[indexPath.row]
+            cellshow = self.cellContain[indexPath.row+3]
         }
         
-        var cell = tableView.dequeueReusableCell(withIdentifier: "allType")
+        var cell = tableView.dequeueReusableCell(withIdentifier: "allType") as? DefCell
         if cell == nil {
-            cell = UITableViewCell(style: .default, reuseIdentifier: "allType")
+            cell = DefCell(style: .default, reuseIdentifier: "allType")
         }
-        cell?.textLabel?.textColor = .black
-       cell?.textLabel?.text = cellshow.label
-       // cell.pic
-        
+        cell?.initCell(title: cellshow.label, image: cellshow.pic)
+//        cell?.icon.image = UIImage(named: cellshow.pic) // 图片要这样设置, 或在 DefCell中用 didSet设置
         return cell!
     }
     
