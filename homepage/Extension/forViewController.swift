@@ -61,7 +61,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate, UINavigati
         if indexPath.section == 0 {
             switch indexPath.row {
             case 0:
-                print("press the cell1")
+                let pushViewController = MyCollectionViewController()
+                self.navigationController?.pushViewController(pushViewController, animated: true)
             case 1:
                 print("press the cell2")
             default:
@@ -70,7 +71,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate, UINavigati
                 self.navigationController?.pushViewController(pushViewController, animated: true)
             }
         } else {
-            print("press the section1, cell0")
+           let pushViewController = SetUpViewController()
+            self.navigationController?.pushViewController(pushViewController, animated: true)
         }
     }
 
