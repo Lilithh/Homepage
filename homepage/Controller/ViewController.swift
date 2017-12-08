@@ -29,9 +29,12 @@ class ViewController: UIViewController {
         let title = ["我的收藏", "我的发布", "编辑资料", "通用设置"]
         let pic = ["star", "antenna", "file", "gear"]
         
+        
+        
         tableView = UITableView(frame: UIScreen.main.bounds, style: .grouped)
         tableView.delegate = self
         tableView.dataSource = self
+        navigationController?.delegate = self
         tableView.register(DefCell.self, forCellReuseIdentifier: "allType")
         let headerView = UIView(frame: CGRect(x:0, y:0, width: self.width, height: self.imageHeight ))
 //        headerView.backgroundColor = UIColor.clear
@@ -56,6 +59,7 @@ class ViewController: UIViewController {
         headButton.setImage(headImage, for: .normal)
         headButton.setImage(headImageSelect, for: .highlighted)
         headButton.imageView?.layer.cornerRadius = headButton.frame.width/2
+        headButton.addTarget(self, action: #selector(self.headButton), for: .touchUpInside)
         headerView.addSubview(headButton)
         
         let headLabel = UILabel(frame: CGRect(x: width/2-40, y: imageHeight/2+10, width: 80, height: 20))
@@ -130,6 +134,22 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        guard self.tableView.indexPathForSelectedRow == nil else {
+            self.tableView.deselectRow(at: self.tableView.indexPathForSelectedRow!, animated: true)
+            return 
+        }
+    }
+    
+    @objc private func headButton() {
+        let pushViewController = EditFileViewController()
+        //用 dismiss 返回
+//        let navFile = UINavigationController(rootViewController: pushViewController)
+//        self.present(navFile, animated: true, completion: nil)
+        // 正常导航栏返回
+        self.navigationController?.pushViewController(pushViewController, animated: true)
     }
     
     

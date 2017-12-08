@@ -8,7 +8,7 @@
 import UIKit
 import Foundation
 
-extension ViewController: UITableViewDataSource, UITableViewDelegate {
+extension ViewController: UITableViewDataSource, UITableViewDelegate, UINavigationControllerDelegate {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 2
     }
@@ -51,6 +51,31 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             blurView.frame = CGRect(x: -(imageWidth*rate - width)/2, y: yOffSet, width: imageWidth*rate, height: totalOffSet)
         }
     }
+    
+    func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
+        let isShowHomePage: Bool = viewController.isKind(of: ViewController.self)
+        navigationController.setNavigationBarHidden(isShowHomePage, animated: true)
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.section == 0 {
+            switch indexPath.row {
+            case 0:
+                print("press the cell1")
+            case 1:
+                print("press the cell2")
+            default:
+                //传值
+                let pushViewController = EditFileViewController()
+                self.navigationController?.pushViewController(pushViewController, animated: true)
+            }
+        } else {
+            print("press the section1, cell0")
+        }
+    }
+
+    
+    
     
 }
 
