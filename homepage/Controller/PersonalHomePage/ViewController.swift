@@ -29,8 +29,6 @@ class ViewController: UIViewController {
         let title = ["我的收藏", "我的发布", "编辑资料", "通用设置"]
         let pic = ["star", "antenna", "file", "gear"]
         
-        
-        
         tableView = UITableView(frame: UIScreen.main.bounds, style: .grouped)
         tableView.delegate = self
         tableView.dataSource = self
@@ -95,7 +93,7 @@ class ViewController: UIViewController {
         postLebel.backgroundColor = .clear
         postLebel.textColor = .white
         headerView.addSubview(postLebel)
-        let postValueLabel = UILabel(frame: CGRect(x: width/6*3-20, y: imageHeight - 70, width: 40, height: 20))
+        let postValueLabel = UILabel(frame: CGRect(x: width/6*3-15, y: imageHeight - 70, width: 40, height: 20))
         postValueLabel.textColor = .white
         postValueLabel.text = String(postValue)
         postValueLabel.textAlignment = .center

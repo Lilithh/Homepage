@@ -12,6 +12,18 @@
 		09239E831FDAD9BF0025BFC2 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09239E821FDAD9BF0025BFC2 /* SwitchCell.swift */; };
 		09239E841FDADDEB0025BFC2 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09239E821FDAD9BF0025BFC2 /* SwitchCell.swift */; };
 		09239E861FDADF600025BFC2 /* QuitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09239E851FDADF600025BFC2 /* QuitTableViewCell.swift */; };
+		09239E881FDCE0EC0025BFC2 /* ToolBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09239E871FDCE0EC0025BFC2 /* ToolBarViewController.swift */; };
+		09239E8F1FDCE25B0025BFC2 /* MyNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09239E8E1FDCE25B0025BFC2 /* MyNewsViewController.swift */; };
+		09239E911FDCE2750025BFC2 /* BBSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09239E901FDCE2750025BFC2 /* BBSViewController.swift */; };
+		09239E931FDCE28C0025BFC2 /* AppHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09239E921FDCE28C0025BFC2 /* AppHomePageViewController.swift */; };
+		09239E9C1FDCF8880025BFC2 /* 服务信息.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239E941FDCF8880025BFC2 /* 服务信息.png */; };
+		09239E9D1FDCF8880025BFC2 /* 学术文艺.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239E951FDCF8880025BFC2 /* 学术文艺.png */; };
+		09239E9E1FDCF8880025BFC2 /* 天津大学.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239E961FDCF8880025BFC2 /* 天津大学.png */; };
+		09239E9F1FDCF8880025BFC2 /* 体育运动.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239E971FDCF8880025BFC2 /* 体育运动.png */; };
+		09239EA01FDCF8880025BFC2 /* 校务专区.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239E981FDCF8880025BFC2 /* 校务专区.png */; };
+		09239EA11FDCF8880025BFC2 /* 休闲娱乐.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239E991FDCF8880025BFC2 /* 休闲娱乐.png */; };
+		09239EA21FDCF8880025BFC2 /* 站务管理.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239E9A1FDCF8880025BFC2 /* 站务管理.png */; };
+		09239EA31FDCF8880025BFC2 /* 知性感性.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239E9B1FDCF8880025BFC2 /* 知性感性.png */; };
 		0928AF0A1FD6ADA800965821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0928AF091FD6ADA800965821 /* AppDelegate.swift */; };
 		0928AF0F1FD6ADA900965821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0928AF0D1FD6ADA900965821 /* Main.storyboard */; };
 		0928AF111FD6ADA900965821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0928AF101FD6ADA900965821 /* Assets.xcassets */; };
@@ -58,6 +70,18 @@
 		09239E801FDAD96E0025BFC2 /* SetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpViewController.swift; sourceTree = "<group>"; };
 		09239E821FDAD9BF0025BFC2 /* SwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
 		09239E851FDADF600025BFC2 /* QuitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuitTableViewCell.swift; sourceTree = "<group>"; };
+		09239E871FDCE0EC0025BFC2 /* ToolBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarViewController.swift; sourceTree = "<group>"; };
+		09239E8E1FDCE25B0025BFC2 /* MyNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNewsViewController.swift; sourceTree = "<group>"; };
+		09239E901FDCE2750025BFC2 /* BBSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBSViewController.swift; sourceTree = "<group>"; };
+		09239E921FDCE28C0025BFC2 /* AppHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHomePageViewController.swift; sourceTree = "<group>"; };
+		09239E941FDCF8880025BFC2 /* 服务信息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "服务信息.png"; sourceTree = "<group>"; };
+		09239E951FDCF8880025BFC2 /* 学术文艺.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学术文艺.png"; sourceTree = "<group>"; };
+		09239E961FDCF8880025BFC2 /* 天津大学.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "天津大学.png"; sourceTree = "<group>"; };
+		09239E971FDCF8880025BFC2 /* 体育运动.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "体育运动.png"; sourceTree = "<group>"; };
+		09239E981FDCF8880025BFC2 /* 校务专区.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "校务专区.png"; sourceTree = "<group>"; };
+		09239E991FDCF8880025BFC2 /* 休闲娱乐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "休闲娱乐.png"; sourceTree = "<group>"; };
+		09239E9A1FDCF8880025BFC2 /* 站务管理.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "站务管理.png"; sourceTree = "<group>"; };
+		09239E9B1FDCF8880025BFC2 /* 知性感性.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "知性感性.png"; sourceTree = "<group>"; };
 		0928AF061FD6ADA800965821 /* homepage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homepage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0928AF091FD6ADA800965821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0928AF0E1FD6ADA900965821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -113,6 +137,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09239E891FDCE1320025BFC2 /* PersonalHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				0928AF3C1FD826E500965821 /* ViewController.swift */,
+				09F4849D1FD997B600C93128 /* EditFileViewController.swift */,
+				09239E7E1FDACFBD0025BFC2 /* MyCollectionViewController.swift */,
+				09239E801FDAD96E0025BFC2 /* SetUpViewController.swift */,
+			);
+			path = PersonalHomePage;
+			sourceTree = "<group>";
+		};
+		09239E8A1FDCE1890025BFC2 /* AppHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				09239E921FDCE28C0025BFC2 /* AppHomePageViewController.swift */,
+			);
+			path = AppHomePage;
+			sourceTree = "<group>";
+		};
+		09239E8B1FDCE1D30025BFC2 /* BBS page */ = {
+			isa = PBXGroup;
+			children = (
+				09239E901FDCE2750025BFC2 /* BBSViewController.swift */,
+			);
+			path = "BBS page";
+			sourceTree = "<group>";
+		};
+		09239E8C1FDCE1FF0025BFC2 /* MyNewsPage */ = {
+			isa = PBXGroup;
+			children = (
+				09239E8E1FDCE25B0025BFC2 /* MyNewsViewController.swift */,
+			);
+			path = MyNewsPage;
+			sourceTree = "<group>";
+		};
+		09239E8D1FDCE2310025BFC2 /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				09239E871FDCE0EC0025BFC2 /* ToolBarViewController.swift */,
+			);
+			path = ToolBar;
+			sourceTree = "<group>";
+		};
 		0928AEFD1FD6ADA800965821 = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +247,14 @@
 				09F484851FD927BE00C93128 /* arrow.png */,
 				09F484871FD927CA00C93128 /* star.png */,
 				09F484A31FD9A1C600C93128 /* anotherArrow.png */,
+				09239E941FDCF8880025BFC2 /* 服务信息.png */,
+				09239E971FDCF8880025BFC2 /* 体育运动.png */,
+				09239E961FDCF8880025BFC2 /* 天津大学.png */,
+				09239E981FDCF8880025BFC2 /* 校务专区.png */,
+				09239E991FDCF8880025BFC2 /* 休闲娱乐.png */,
+				09239E951FDCF8880025BFC2 /* 学术文艺.png */,
+				09239E9A1FDCF8880025BFC2 /* 站务管理.png */,
+				09239E9B1FDCF8880025BFC2 /* 知性感性.png */,
 			);
 			path = icon;
 			sourceTree = "<group>";
@@ -207,10 +282,11 @@
 		09F4849A1FD996C800C93128 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0928AF3C1FD826E500965821 /* ViewController.swift */,
-				09F4849D1FD997B600C93128 /* EditFileViewController.swift */,
-				09239E7E1FDACFBD0025BFC2 /* MyCollectionViewController.swift */,
-				09239E801FDAD96E0025BFC2 /* SetUpViewController.swift */,
+				09239E8A1FDCE1890025BFC2 /* AppHomePage */,
+				09239E8B1FDCE1D30025BFC2 /* BBS page */,
+				09239E8C1FDCE1FF0025BFC2 /* MyNewsPage */,
+				09239E891FDCE1320025BFC2 /* PersonalHomePage */,
+				09239E8D1FDCE2310025BFC2 /* ToolBar */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -339,16 +415,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				0928AF421FD82A5100965821 /* key.png in Resources */,
+				09239EA11FDCF8880025BFC2 /* 休闲娱乐.png in Resources */,
 				09F4848C1FD927DF00C93128 /* file.png in Resources */,
 				0928AF141FD6ADA900965821 /* LaunchScreen.storyboard in Resources */,
 				0928AF431FD82A5100965821 /* pack.png in Resources */,
+				09239EA31FDCF8880025BFC2 /* 知性感性.png in Resources */,
 				09F4848E1FD927E800C93128 /* gear.png in Resources */,
+				09239E9D1FDCF8880025BFC2 /* 学术文艺.png in Resources */,
 				09F4848A1FD927D600C93128 /* antenna.png in Resources */,
 				0928AF111FD6ADA900965821 /* Assets.xcassets in Resources */,
+				09239E9F1FDCF8880025BFC2 /* 体育运动.png in Resources */,
 				09F484A41FD9A1C600C93128 /* anotherArrow.png in Resources */,
 				0928AF411FD82A5100965821 /* purchase.png in Resources */,
+				09239E9E1FDCF8880025BFC2 /* 天津大学.png in Resources */,
 				09F484881FD927CA00C93128 /* star.png in Resources */,
+				09239EA21FDCF8880025BFC2 /* 站务管理.png in Resources */,
 				09F484861FD927BE00C93128 /* arrow.png in Resources */,
+				09239E9C1FDCF8880025BFC2 /* 服务信息.png in Resources */,
+				09239EA01FDCF8880025BFC2 /* 校务专区.png in Resources */,
 				0928AF0F1FD6ADA900965821 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,18 +458,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09239E931FDCE28C0025BFC2 /* AppHomePageViewController.swift in Sources */,
 				09239E861FDADF600025BFC2 /* QuitTableViewCell.swift in Sources */,
 				09F484A21FD99D4E00C93128 /* SelfCellTwo.swift in Sources */,
 				0928AF481FD9080800965821 /* forViewController.swift in Sources */,
 				09F484A01FD99D3A00C93128 /* SelfCellOne.swift in Sources */,
 				09F484841FD923C600C93128 /* DefCell.swift in Sources */,
+				09239E8F1FDCE25B0025BFC2 /* MyNewsViewController.swift in Sources */,
 				09239E811FDAD96E0025BFC2 /* SetUpViewController.swift in Sources */,
 				0928AF3D1FD826E500965821 /* ViewController.swift in Sources */,
 				09239E7F1FDACFBD0025BFC2 /* MyCollectionViewController.swift in Sources */,
+				09239E911FDCE2750025BFC2 /* BBSViewController.swift in Sources */,
 				0928AF0A1FD6ADA800965821 /* AppDelegate.swift in Sources */,
 				09F4849E1FD997B700C93128 /* EditFileViewController.swift in Sources */,
 				09239E831FDAD9BF0025BFC2 /* SwitchCell.swift in Sources */,
 				0928AF4B1FD90A9C00965821 /* model.swift in Sources */,
+				09239E881FDCE0EC0025BFC2 /* ToolBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

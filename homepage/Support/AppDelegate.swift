@@ -17,8 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
 //        let nav = UINavigationController(rootViewController: ViewController())
-        let nav = UINavigationController(rootViewController: ViewController())
+//        UINavigationBar.appearance().tintColor = .clear
         
+        let nav = ToolBarViewController()
+        
+        //改变状态栏颜色？？没有用-----
+//        UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
         
         window?.rootViewController = nav
         window?.makeKeyAndVisible()

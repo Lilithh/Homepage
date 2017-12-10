@@ -23,7 +23,8 @@ class EditFileViewController: UIViewController, UITableViewDelegate, UITableView
         tableView.dataSource = self
         
 //        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: " ", style: .done, target: self, action: #selector(self.back))
-        self.navigationItem.leftBarButtonItem?.title = " "  //没有用
+        
+//        self.navigationController?.navigationItem.backBarButtonItem.title带回看一下
         self.navigationController?.navigationBar.tintColor = .white
         self.navigationController?.navigationBar.barTintColor = UIColor.init(red: 0.1, green: 0.5, blue: 0.9, alpha: 0.7)
         self.navigationItem.title = "编辑资料"
