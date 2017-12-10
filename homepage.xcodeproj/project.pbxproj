@@ -24,6 +24,11 @@
 		09239EA11FDCF8880025BFC2 /* 休闲娱乐.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239E991FDCF8880025BFC2 /* 休闲娱乐.png */; };
 		09239EA21FDCF8880025BFC2 /* 站务管理.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239E9A1FDCF8880025BFC2 /* 站务管理.png */; };
 		09239EA31FDCF8880025BFC2 /* 知性感性.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239E9B1FDCF8880025BFC2 /* 知性感性.png */; };
+		09239EAB1FDD368D0025BFC2 /* BBS.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239EA61FDD368D0025BFC2 /* BBS.png */; };
+		09239EAC1FDD368D0025BFC2 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239EA71FDD368D0025BFC2 /* Home.png */; };
+		09239EAD1FDD368D0025BFC2 /* messageDisEm.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239EA81FDD368D0025BFC2 /* messageDisEm.png */; };
+		09239EAE1FDD368D0025BFC2 /* messageEm.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239EA91FDD368D0025BFC2 /* messageEm.png */; };
+		09239EAF1FDD368D0025BFC2 /* Pensonal.png in Resources */ = {isa = PBXBuildFile; fileRef = 09239EAA1FDD368D0025BFC2 /* Pensonal.png */; };
 		0928AF0A1FD6ADA800965821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0928AF091FD6ADA800965821 /* AppDelegate.swift */; };
 		0928AF0F1FD6ADA900965821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0928AF0D1FD6ADA900965821 /* Main.storyboard */; };
 		0928AF111FD6ADA900965821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0928AF101FD6ADA900965821 /* Assets.xcassets */; };
@@ -82,6 +87,11 @@
 		09239E991FDCF8880025BFC2 /* 休闲娱乐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "休闲娱乐.png"; sourceTree = "<group>"; };
 		09239E9A1FDCF8880025BFC2 /* 站务管理.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "站务管理.png"; sourceTree = "<group>"; };
 		09239E9B1FDCF8880025BFC2 /* 知性感性.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "知性感性.png"; sourceTree = "<group>"; };
+		09239EA61FDD368D0025BFC2 /* BBS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BBS.png; sourceTree = "<group>"; };
+		09239EA71FDD368D0025BFC2 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		09239EA81FDD368D0025BFC2 /* messageDisEm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messageDisEm.png; sourceTree = "<group>"; };
+		09239EA91FDD368D0025BFC2 /* messageEm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messageEm.png; sourceTree = "<group>"; };
+		09239EAA1FDD368D0025BFC2 /* Pensonal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pensonal.png; sourceTree = "<group>"; };
 		0928AF061FD6ADA800965821 /* homepage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homepage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0928AF091FD6ADA800965821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0928AF0E1FD6ADA900965821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -255,6 +265,11 @@
 				09239E951FDCF8880025BFC2 /* 学术文艺.png */,
 				09239E9A1FDCF8880025BFC2 /* 站务管理.png */,
 				09239E9B1FDCF8880025BFC2 /* 知性感性.png */,
+				09239EA61FDD368D0025BFC2 /* BBS.png */,
+				09239EA71FDD368D0025BFC2 /* Home.png */,
+				09239EA81FDD368D0025BFC2 /* messageDisEm.png */,
+				09239EA91FDD368D0025BFC2 /* messageEm.png */,
+				09239EAA1FDD368D0025BFC2 /* Pensonal.png */,
 			);
 			path = icon;
 			sourceTree = "<group>";
@@ -423,15 +438,20 @@
 				09F4848E1FD927E800C93128 /* gear.png in Resources */,
 				09239E9D1FDCF8880025BFC2 /* 学术文艺.png in Resources */,
 				09F4848A1FD927D600C93128 /* antenna.png in Resources */,
+				09239EAD1FDD368D0025BFC2 /* messageDisEm.png in Resources */,
 				0928AF111FD6ADA900965821 /* Assets.xcassets in Resources */,
 				09239E9F1FDCF8880025BFC2 /* 体育运动.png in Resources */,
 				09F484A41FD9A1C600C93128 /* anotherArrow.png in Resources */,
 				0928AF411FD82A5100965821 /* purchase.png in Resources */,
+				09239EAF1FDD368D0025BFC2 /* Pensonal.png in Resources */,
 				09239E9E1FDCF8880025BFC2 /* 天津大学.png in Resources */,
+				09239EAC1FDD368D0025BFC2 /* Home.png in Resources */,
 				09F484881FD927CA00C93128 /* star.png in Resources */,
 				09239EA21FDCF8880025BFC2 /* 站务管理.png in Resources */,
+				09239EAB1FDD368D0025BFC2 /* BBS.png in Resources */,
 				09F484861FD927BE00C93128 /* arrow.png in Resources */,
 				09239E9C1FDCF8880025BFC2 /* 服务信息.png in Resources */,
+				09239EAE1FDD368D0025BFC2 /* messageEm.png in Resources */,
 				09239EA01FDCF8880025BFC2 /* 校务专区.png in Resources */,
 				0928AF0F1FD6ADA900965821 /* Main.storyboard in Resources */,
 			);
