@@ -1,0 +1,17 @@
+PODS:
+  - Alamofire (4.5.1)
+  - LeanCloud (11.0.0):
+    - LeanCloud/Storage (= 11.0.0)
+  - LeanCloud/Storage (11.0.0):
+    - Alamofire (~> 4.5)
+
+DEPENDENCIES:
+  - LeanCloud (~> 11.0.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  LeanCloud: cb29157ba8f4e948f3476b4503903b7e6da9c260
+
+PODFILE CHECKSUM: dfc014fecf15326e8b4759ac9fd3fbaba28ac2c1
+
+COCOAPODS: 1.3.1
