@@ -13,6 +13,7 @@ class BBSViewController: UIViewController {
     let width = UIScreen.main.bounds.width
     let pic: [String] = ["", "休闲娱乐", "学术文艺", "知性感性", "体育运动", "校务专区", "天津大学", "站务管理", "服务信息"]
     let name: [String] = ["", "休闲娱乐", "学术文艺", "知性感性", "体育运动", "校务专区", "天津大学", "站务管理", "服务信息"]
+    let url: [String] = ["", "", "", "", "", "","", "", ""]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +52,7 @@ class BBSViewController: UIViewController {
             label.backgroundColor = .clear
             scrollView.addSubview(button)
             scrollView.addSubview(label)
+            button.addTarget(self, action: #selector(transView), for: .touchUpInside)
         }
       
         
@@ -61,6 +63,12 @@ class BBSViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @objc private func transView() {
+        let pushViewController = DiscussViewController()
+        self.navigationController?.pushViewController(pushViewController, animated: true)
+        //用代理传值
     }
     
 

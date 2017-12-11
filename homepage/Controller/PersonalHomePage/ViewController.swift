@@ -76,8 +76,9 @@ class ViewController: UIViewController {
         headerView.addSubview(line1)
         headerView.addSubview(line2)
         
-        let pointLebel = UILabel(frame: CGRect(x: width/6-15, y: imageHeight-30, width: 50, height: 20))
+        let pointLebel = UILabel(frame: CGRect(x: width/6-25, y: imageHeight-30, width: 50, height: 20))
         pointLebel.text = "积分"
+        pointLebel.textAlignment = .center
         pointLebel.backgroundColor = .clear
         pointLebel.textColor = .white
         headerView.addSubview(pointLebel)
@@ -88,20 +89,22 @@ class ViewController: UIViewController {
         pointValueLabel.font = UIFont.boldSystemFont(ofSize: 20)
         headerView.addSubview(pointValueLabel)
         
-        let postLebel = UILabel(frame: CGRect(x: width/6*3-15, y: imageHeight-30, width: 50, height: 20))
+        let postLebel = UILabel(frame: CGRect(x: width/6*3-25, y: imageHeight-30, width: 50, height: 20))
         postLebel.text = "发帖"
+        postLebel.textAlignment = .center
         postLebel.backgroundColor = .clear
         postLebel.textColor = .white
         headerView.addSubview(postLebel)
-        let postValueLabel = UILabel(frame: CGRect(x: width/6*3-15, y: imageHeight - 70, width: 40, height: 20))
+        let postValueLabel = UILabel(frame: CGRect(x: width/6*3-20, y: imageHeight - 70, width: 40, height: 20))
         postValueLabel.textColor = .white
         postValueLabel.text = String(postValue)
         postValueLabel.textAlignment = .center
         postValueLabel.font = UIFont.boldSystemFont(ofSize: 20)
         headerView.addSubview(postValueLabel)
         
-        let ageLebel = UILabel(frame: CGRect(x: width/6*5-15, y: imageHeight-30, width: 50, height: 20))
+        let ageLebel = UILabel(frame: CGRect(x: width/6*5-25, y: imageHeight-30, width: 50, height: 20))
         ageLebel.text = "站龄"
+        ageLebel.textAlignment = .center
         ageLebel.backgroundColor = .clear
         ageLebel.textColor = .white
         headerView.addSubview(ageLebel)
